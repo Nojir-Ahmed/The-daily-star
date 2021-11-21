@@ -1,0 +1,123 @@
+body{font-family:Arial; font-size:12px; line-height:13px; background:url("images/site_bg.png") top center no-repeat fixed rgba(24, 25, 32, 0.836)}
+.floatleft{float:left}
+.floatright{float:right}
+.center{width:980px; display:block; margin:0 auto; padding:20px; background:#fff; transition:all 1.3s ease 0s; -moz-transition:all 1.3s ease 0s; -webkit-transition:all 1.3s ease 0s; -o-transition:all 1.3s ease 0s; -ms-transition:all 1.3s ease 0s}
+div{overflow:hidden}
+.slider{height:350px; overflow:visible}
+.bxslider, .bx-viewport, .bx-controls, .bx-pager, .bx-controls-direction{overflow:visible}
+#selectnav1{display:none}
+#selectnav2{display:none}
+#nav{display:block ;transition:all 1.3s ease 0s; -moz-transition:all 1.3s ease 0s; -webkit-transition:all 1.3s ease 0s; -o-transition:all 1.3s ease 0s; -ms-transition:all 1.3s ease 0s }
+#f_menu{display:block}
+.body_wrapper{background:url("images/body_bg.png") repeat; margin-top:30px; margin-bottom:30px}
+.header_area{width:980px; display:block; margin:0 auto; padding:20px; background:#fff; transition:all 1.3s ease 0s; -moz-transition:all 1.3s ease 0s; -webkit-transition:all 1.3s ease 0s; -o-transition:all 1.3s ease 0s; -ms-transition:all 1.3s ease 0s}}
+.logo{margin-top:20px; width: 330px; color: #CF0000;}
+.top_menu{margin-left:60px; margin-top:60px; width:330px}
+.top_menu ul{list-style:none outside none; margin:0; padding:0}
+.top_menu ul li{float:left; border-right:2px solid #000}
+.top_menu ul li:last-child{border-right:none}
+.top_menu ul li a{color:#CF0000; display:block; font-size:12px; padding:0 11px; line-height:12px}
+.top_menu ul li a:hover{text-decoration:underline}
+.social_plus_search{margin-bottom:20px}
+.social{width:250px; margin:20px 0px 10px 0px}
+.social ul{list-style:none outside none; margin:0; padding:0}
+.social ul li{float:left; margin-right:7px}
+.social ul li a{display:block; padding:12px 13px}
+.twitter{background:url("assets/css/images/social_icons.png") no-repeat scroll 0 0 rgba(0,0,0,0)}
+.facebook{background:url("assets/css/images/social_icons.png") no-repeat scroll -37px 0px rgba(0,0,0,0)}
+.feed{background:url("assets/css/images/social_icons.png") no-repeat scroll -73px 0px rgba(0,0,0,0)}
+.search{}
+.search #search_form{}
+.search #s{width:85%}
+.search #searchform{background:url("assets/css/images/search.png") no-repeat scroll 0 0 rgba(0,0,0,0); border:medium none; height:28px; margin-left:-4px; text-indent:-99999px; width:13%}
+.main_menu_area{width: 990px; overflow:visible; background:#0D0E0F; min-height:50px ;display:block; margin:0 auto; }
+.main_menu_area ul{margin:0; padding:0; list-style:none}
+.main_menu_area ul li{float:left; position:relative}
+.main_menu_area ul li a{color:#FFF; display:block; font-family:'bebasregular'; font-size:15px; padding:18px 18.7px}
+.main_menu_area ul li a:hover{background:#CF0000}
+#nav li ul{transition:all 0.3s ease 0s; -moz-transition:all 0.3s ease 0s; -webkit-transition:all 0.3s ease 0s; -o-transition:all 0.3s ease 0s; -ms-transition:all 0.3s ease 0s}
+/* dropdown css level one*/
+.main_menu_area ul li ul{background:none repeat scroll 0 0 #0D0E0F; top:100px; position:absolute; width:215px; z-index:99999; right:-99999px}
+.main_menu_area ul li ul li{float:none; position:relative}
+.main_menu_area ul >li:hover >ul{left:0px; top:49px}
+.main_menu_area ul li ul li a{font-family:arial; font-weight:bold}
+.main_menu_area ul li ul li a:hover{}
+/* dropdown css level two*/
+.main_menu_area ul li ul li ul{background:none repeat scroll 0 0 #0D0E0F; right:215px; position:absolute; width:215px; z-index:99999; right:-99999px}
+.main_menu_area ul li ul li ul li{float:none}
+.main_menu_area ul li ul li:hover ul{left:215px !important; top:0px}
+.main_menu_area ul li ul li ul li a{font-family:arial; font-weight:bold}
+.section{
+    width: 940px;
+    padding: 20px;
+    
+}
+.content_section{
+    float: left;
+    width: 60%;
+   
+    
+    
+}
+.image_section{
+    float: right;
+    width: 336px;
+    padding: 20px;
+   
+
+}
+.image_section img{
+    width: 100%;
+}
+.content_section .title{
+  text-hight
+    font-size: 18px;
+}
+.content_section .content H3{
+    font-size: ;
+    color: beige;
+
+}
+.content_section .content p{
+  
+    
+   
+    
+}
+.content.button{
+    width: 70px;
+    background-color: #743d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font color: white;
+    
+}
+.text_name{
+    float: right;
+    text-align: center;
+    
+    
+}
+.text_name h2{
+    text-align: center;
+}
+.social2{
+    width: 250px;
+    padding: 25px;
+}
+
+.footer_top_area{border-bottom:1px dotted #000; border-top:1px dotted #000; padding:20px 0; width:940px}
+.inner_footer_top{width:730px; margin:0 auto}
+.footer_bottom_area{margin-top:15px}
+.footer_menu{margin-bottom:20px}
+.footer_menu ul{margin:0; padding:0; list-style:none}
+.footer_menu ul li{border-right:1px solid #000; display:inline}
+.footer_menu ul li:last-child{border-right:none}
+.footer_menu ul li a{display:inline-block; padding:0 22px}
+.footer_menu ul li a:hover{}
+.copyright_text{line-height:17px; text-align:center}
+.ali{
+    text-align: center;
+}
